@@ -1,0 +1,71 @@
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-right: 78px;
+}
+.logo-web {
+  color: var(--accent-color);
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.site-nav {
+  display: none;
+}
+.styles-adress {
+  display: none;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+.mobile-btn-open {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  line-height: 0;
+  cursor: pointer;
+}
+.mobile-menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: green;
+}
+.btton-mobile-close {
+}
+
+.button-close-menu {
+}
