@@ -438,7 +438,23 @@
     flex-direction: row;
     gap: 64px 24px;
   }
+
   .social-list-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-radius: 50px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-list-link:hover,
+  .social-list-link:focus {
+    background-color: var(--portfolio-btn-color);
+  }
+  .social-list-icon {
+    fill: var(--hero-text-color);
   }
   /* ==========/ section-3========== */
   /* ==========footer========== */
